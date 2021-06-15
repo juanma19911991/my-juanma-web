@@ -1,0 +1,32 @@
+.Bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  justify-content: space-between;
+  padding: 0 10 0 10;
+  
+  }
+  
+  .Logo{
+  padding-left: 14px;  
+  
+  }
+  
+  .Nav{
+    background-color: rgb(72, 233, 120);
+  
+    
+  }
+  
+  .Link{
+  margin: 0px 5px;
+  color: #fff;
+  
+  }
+  
+  .Links{
+  display:flex; 
+  list-style-type: none;
+  border: 1px solid black;
+  color: #fff;
+  }
