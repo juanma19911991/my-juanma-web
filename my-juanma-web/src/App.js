@@ -2,24 +2,24 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const shopName = 'JuanmaWeeb';
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          #juanmaweeb
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Buen dia
-        </a>
+      <header className="Bar">
+        <p className="Logo">{shopName}</p>
+      <nav className="Nav">
+        <ul className="Links">
+          <li className="Link"><a href="">Sector</a></li>
+          <li className="Link"><a href="">Sector</a></li>
+          <li className="Link"><a href="">Sector</a></li>
+          <li className="Link"><a href="">Sector</a></li>
+        </ul>
+      </nav>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
