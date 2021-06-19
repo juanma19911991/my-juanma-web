@@ -1,0 +1,33 @@
+[
+
+    {
+        
+        "id": 1,
+        "tittle": "zapato",
+        "description": "lorem ipsum",
+        "price": 6000,
+        "stock": 8,
+        "pictureURL": "https://picsum.photos/200"
+
+    },
+    {
+        "id": 2,
+        "tittle": "zapato",
+        "description": "lorem ipsum",
+        "price": 6000,
+        "stock": 4,
+        "pictureURL": "https://picsum.photos/200"
+
+    },
+    {
+        "id": 3,
+        "tittle": "zapato",
+        "description": "lorem ipsum",
+        "price": 6000,
+        "stock": 2,
+        "pictureURL": "https://picsum.photos/200"
+
+    }
+
+
+]
