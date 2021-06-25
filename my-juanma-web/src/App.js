@@ -12,18 +12,22 @@ import { CardComponent } from './Components/Cards/Card';
 
 
 
+
 function App() {
 
   return (
 
-    
+
     <div>
+
       <NavbarComponent />
       <div>
         <ItemListConteiner greeting={"Hola1234"} />
       </div>
 
+      {/* <CardComponent />
       <CardComponent />
+      <CardComponent /> */}
     </div>
 
   )
