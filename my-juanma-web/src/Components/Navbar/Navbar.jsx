@@ -17,8 +17,10 @@ export const NavbarComponent = () => {
             <li className="Link"><a href="">Inicio</a></li>
             <li className="Link"><a href="">Contacto</a></li>
             <li className="Link"><a href="">Nosotros</a></li>
-            <li className="Link"><a href="">Info</a></li>
+            <li className="Link"><a href="">Bye</a></li>
+
             <CardWidgetComponent />
+
           </ul>
         </nav>
       </header>
