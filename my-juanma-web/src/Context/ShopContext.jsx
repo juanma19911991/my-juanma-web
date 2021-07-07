@@ -12,12 +12,3 @@ export const shopcomponentcontext= ({children}) =>{
 
 
 
-let condicion = true;
-
-
-if (condicion){
-    console.log("Condicion verdadera");
-}
-else{
-    console.log("Condicion Falsa");
-}
