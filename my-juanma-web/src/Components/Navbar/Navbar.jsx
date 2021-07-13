@@ -1,30 +1,26 @@
-import { CardWidgetComponent } from "../cardWidget/CardWidget";
-
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+//import { } from '@fortawesome/free-brands-svg-icons';
+import { CardComponent } from '../Cards/Card'
+import { NavLink } from 'react-router-dom';
 
 
 
 export const NavbarComponent = () => {
-  const shopName = 'JuanmaWeeb';
   return (
+    <>
+      <Navbar bg="dark" variante="light">
+        <Navbar.Brand href="#/">JuanmaWEB</Navbar.Brand>
 
+        <Nav ClassName="asd">
+          <Nav.Link as={NavLink} exact={true} activeClassName="active" to="/">Home</Nav.Link>
+          <Nav.Link as={NavLink} activeClassName="active" to="/category/A">Categoria A</Nav.Link>
+          <Nav.Link as={NavLink} activeClassName="active" to="/category/B">Categoria B</Nav.Link>
+        </Nav>
+      
+      </Navbar>
+    </>
 
-    <div className="App">
-
-      <header className="Bar">
-        <p className="Logo">{shopName}</p>
-        <nav className="Nav">
-          <ul className="Links">
-            <li className="Link"><a href="">Inicio</a></li>
-            <li className="Link"><a href="">Contacto</a></li>
-            <li className="Link"><a href="">Nosotros</a></li>
-            <li className="Link"><a href="">Bye</a></li>
-
-            <CardWidgetComponent />
-
-          </ul>
-        </nav>
-      </header>
-    </div>
   )
 }
 

@@ -4,33 +4,37 @@ import "./Components/Navbar/Navbar.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ItemListConteiner } from './Conteiners/ItemListConteiner';
 import { ItemDetailConteiner } from './Conteiners/ItemDatailConteiner/ItemDetailConteiner';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
 
   return (
-
-
-    <div className='asd1'>
+    <div className="asd1">
       <BrowserRouter>
         <NavbarComponent />
-
         <Switch>
           <Route exact path="/" component={ItemListConteiner} />
-          <Route exact path="/category/:id" component={ItemDetailConteiner} />
+          <Route path="/category/:id" component={ItemListConteiner} />
           <Route exact path="/item/:id" component={ItemDetailConteiner} />
-          <div className='a1'>
-            <div>
-              <ItemListConteiner greeting={"Pagina Web"} />
-            </div>
-          </div>
-          <ItemDetailConteiner />
-
+          
+         
+        <hr/>
         </Switch>
-      </BrowserRouter>
-    </div>
+      <div>
+        <h1> footer </h1>
+      </div>
 
-  )
+
+    </BrowserRouter>
+          </div>
+  );
 }
 
 export default App;
+
+
+
+
+
+
+
